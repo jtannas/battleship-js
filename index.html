@@ -4,10 +4,296 @@
 <head>
   <meta charset="UTF-8">
   <title>Battleship</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
+  <div id="container">
+    <div id="player-1" class="player-container">
+      <h1 class="title">Player 1</h1>
+      <div class="board">
+        <div class="row row-1">
+          <div class="box column-1"></div>
+          <div class="box column-2"></div>
+          <div class="box column-3"></div>
+          <div class="box column-4"></div>
+          <div class="box column-5"></div>
+          <div class="box column-6"></div>
+          <div class="box column-7"></div>
+          <div class="box column-8"></div>
+          <div class="box column-9"></div>
+          <div class="box column-10"></div>
+        </div>
+        <div class="row row-2">
+          <div class="box column-1"></div>
+          <div class="box column-2"></div>
+          <div class="box column-3"></div>
+          <div class="box column-4"></div>
+          <div class="box column-5"></div>
+          <div class="box column-6"></div>
+          <div class="box column-7"></div>
+          <div class="box column-8"></div>
+          <div class="box column-9"></div>
+          <div class="box column-10"></div>
+        </div>
+        <div class="row row-3">
+          <div class="box column-1"></div>
+          <div class="box column-2"></div>
+          <div class="box column-3"></div>
+          <div class="box column-4"></div>
+          <div class="box column-5"></div>
+          <div class="box column-6"></div>
+          <div class="box column-7"></div>
+          <div class="box column-8"></div>
+          <div class="box column-9"></div>
+          <div class="box column-10"></div>
+        </div>
+        <div class="row row-4">
+          <div class="box column-1"></div>
+          <div class="box column-2"></div>
+          <div class="box column-3"></div>
+          <div class="box column-4"></div>
+          <div class="box column-5"></div>
+          <div class="box column-6"></div>
+          <div class="box column-7"></div>
+          <div class="box column-8"></div>
+          <div class="box column-9"></div>
+          <div class="box column-10"></div>
+        </div>
+        <div class="row row-5">
+          <div class="box column-1"></div>
+          <div class="box column-2"></div>
+          <div class="box column-3"></div>
+          <div class="box column-4"></div>
+          <div class="box column-5"></div>
+          <div class="box column-6"></div>
+          <div class="box column-7"></div>
+          <div class="box column-8"></div>
+          <div class="box column-9"></div>
+          <div class="box column-10"></div>
+        </div>
+        <div class="row row-6">
+          <div class="box column-1"></div>
+          <div class="box column-2"></div>
+          <div class="box column-3"></div>
+          <div class="box column-4"></div>
+          <div class="box column-5"></div>
+          <div class="box column-6"></div>
+          <div class="box column-7"></div>
+          <div class="box column-8"></div>
+          <div class="box column-9"></div>
+          <div class="box column-10"></div>
+        </div>
+        <div class="row row-7">
+          <div class="box column-1"></div>
+          <div class="box column-2"></div>
+          <div class="box column-3"></div>
+          <div class="box column-4"></div>
+          <div class="box column-5"></div>
+          <div class="box column-6"></div>
+          <div class="box column-7"></div>
+          <div class="box column-8"></div>
+          <div class="box column-9"></div>
+          <div class="box column-10"></div>
+        </div>
+        <div class="row row-8">
+          <div class="box column-1"></div>
+          <div class="box column-2"></div>
+          <div class="box column-3"></div>
+          <div class="box column-4"></div>
+          <div class="box column-5"></div>
+          <div class="box column-6"></div>
+          <div class="box column-7"></div>
+          <div class="box column-8"></div>
+          <div class="box column-9"></div>
+          <div class="box column-10"></div>
+        </div>
+        <div class="row row-9">
+          <div class="box column-1"></div>
+          <div class="box column-2"></div>
+          <div class="box column-3"></div>
+          <div class="box column-4"></div>
+          <div class="box column-5"></div>
+          <div class="box column-6"></div>
+          <div class="box column-7"></div>
+          <div class="box column-8"></div>
+          <div class="box column-9"></div>
+          <div class="box column-10"></div>
+        </div>
+        <div class="row row-10">
+          <div class="box column-1"></div>
+          <div class="box column-2"></div>
+          <div class="box column-3"></div>
+          <div class="box column-4"></div>
+          <div class="box column-5"></div>
+          <div class="box column-6"></div>
+          <div class="box column-7"></div>
+          <div class="box column-8"></div>
+          <div class="box column-9"></div>
+          <div class="box column-10"></div>
+        </div>
+      </div>
 
+      <ul class="ships">
+        <li>Carrier</li>
+        <li>Battleship</li>
+        <li>Cruiser</li>
+        <li>Submarine</li>
+        <li>Destroyer</li>
+      </ul>
+    </div>
+
+    <div class="event-log">
+      <h1>Event Log</h1>
+      <ul id="events">
+        <li>Event 1</li>
+        <li>Event 2</li>
+        <li>Event 3</li>
+        <li>Event 4</li>
+        <li>Event 5</li>
+        <li>Event 6</li>
+        <li>Event 7</li>
+        <li>Event 8</li>
+        <li>Event 9</li>
+        <li>Event 10</li>
+      </ul>
+    </div>
+
+    <div id="player-2" class="player-container">
+      <h1 class="title">Player 2</h1>
+      <div class="board board-player2">
+        <div class="row row-1">
+          <div class="box column-1"></div>
+          <div class="box column-2"></div>
+          <div class="box column-3"></div>
+          <div class="box column-4"></div>
+          <div class="box column-5"></div>
+          <div class="box column-6"></div>
+          <div class="box column-7"></div>
+          <div class="box column-8"></div>
+          <div class="box column-9"></div>
+          <div class="box column-10"></div>
+        </div>
+        <div class="row row-2">
+          <div class="box column-1"></div>
+          <div class="box column-2"></div>
+          <div class="box column-3"></div>
+          <div class="box column-4"></div>
+          <div class="box column-5"></div>
+          <div class="box column-6"></div>
+          <div class="box column-7"></div>
+          <div class="box column-8"></div>
+          <div class="box column-9"></div>
+          <div class="box column-10"></div>
+        </div>
+        <div class="row row-3">
+          <div class="box column-1"></div>
+          <div class="box column-2"></div>
+          <div class="box column-3"></div>
+          <div class="box column-4"></div>
+          <div class="box column-5"></div>
+          <div class="box column-6"></div>
+          <div class="box column-7"></div>
+          <div class="box column-8"></div>
+          <div class="box column-9"></div>
+          <div class="box column-10"></div>
+        </div>
+        <div class="row row-4">
+          <div class="box column-1"></div>
+          <div class="box column-2"></div>
+          <div class="box column-3"></div>
+          <div class="box column-4"></div>
+          <div class="box column-5"></div>
+          <div class="box column-6"></div>
+          <div class="box column-7"></div>
+          <div class="box column-8"></div>
+          <div class="box column-9"></div>
+          <div class="box column-10"></div>
+        </div>
+        <div class="row row-5">
+          <div class="box column-1"></div>
+          <div class="box column-2"></div>
+          <div class="box column-3"></div>
+          <div class="box column-4"></div>
+          <div class="box column-5"></div>
+          <div class="box column-6"></div>
+          <div class="box column-7"></div>
+          <div class="box column-8"></div>
+          <div class="box column-9"></div>
+          <div class="box column-10"></div>
+        </div>
+        <div class="row row-6">
+          <div class="box column-1"></div>
+          <div class="box column-2"></div>
+          <div class="box column-3"></div>
+          <div class="box column-4"></div>
+          <div class="box column-5"></div>
+          <div class="box column-6"></div>
+          <div class="box column-7"></div>
+          <div class="box column-8"></div>
+          <div class="box column-9"></div>
+          <div class="box column-10"></div>
+        </div>
+        <div class="row row-7">
+          <div class="box column-1"></div>
+          <div class="box column-2"></div>
+          <div class="box column-3"></div>
+          <div class="box column-4"></div>
+          <div class="box column-5"></div>
+          <div class="box column-6"></div>
+          <div class="box column-7"></div>
+          <div class="box column-8"></div>
+          <div class="box column-9"></div>
+          <div class="box column-10"></div>
+        </div>
+        <div class="row row-8">
+          <div class="box column-1"></div>
+          <div class="box column-2"></div>
+          <div class="box column-3"></div>
+          <div class="box column-4"></div>
+          <div class="box column-5"></div>
+          <div class="box column-6"></div>
+          <div class="box column-7"></div>
+          <div class="box column-8"></div>
+          <div class="box column-9"></div>
+          <div class="box column-10"></div>
+        </div>
+        <div class="row row-9">
+          <div class="box column-1"></div>
+          <div class="box column-2"></div>
+          <div class="box column-3"></div>
+          <div class="box column-4"></div>
+          <div class="box column-5"></div>
+          <div class="box column-6"></div>
+          <div class="box column-7"></div>
+          <div class="box column-8"></div>
+          <div class="box column-9"></div>
+          <div class="box column-10"></div>
+        </div>
+        <div class="row row-10">
+          <div class="box column-1"></div>
+          <div class="box column-2"></div>
+          <div class="box column-3"></div>
+          <div class="box column-4"></div>
+          <div class="box column-5"></div>
+          <div class="box column-6"></div>
+          <div class="box column-7"></div>
+          <div class="box column-8"></div>
+          <div class="box column-9"></div>
+          <div class="box column-10"></div>
+        </div>
+      </div>
+
+      <ul class="ships">
+        <li>Carrier</li>
+        <li>Battleship</li>
+        <li>Cruiser</li>
+        <li>Submarine</li>
+        <li>Destroyer</li>
+      </ul>
+    </div>
+  </div>
 </body>
 
 </html>

@@ -1,0 +1,42 @@
+#container {
+  display: flex;
+}
+
+.player-container {
+  padding: 2vw;
+}
+
+.player-container>.title {
+  text-align: center;
+}
+
+.board {
+  display: grid;
+  width: 32vw;
+  height: 32vw;
+  background-color: blue;
+  grid-template-rows: repeat(10, 10%);
+  grid-template-columns: 100%;
+  border: 1vw solid black;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(10, 10%);
+}
+
+.box {
+  border: 1px dashed black;
+}
+
+.event-log {
+  width: 20vw;
+  background-color: grey;
+  display: flex-column;
+  margin: 2vw 0vw;
+  border: 1px solid black;
+}
+
+.event-log>h1 {
+  text-align: center;
+}
